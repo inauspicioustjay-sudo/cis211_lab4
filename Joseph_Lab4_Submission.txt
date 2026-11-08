@@ -1,0 +1,24 @@
+CIS 211 - Lab 4 Submission
+
+Name: Turk Joseph
+C:ub name: Gotham Chess Club NYC
+
+Live app URL: https://cis211lab4-jykrn4a8ztwtojesttp5fu.streamlit.app/#meeting-details
+GitHub repository URL: https://github.com/inauspicioustjay-sudo/cis211_lab4
+
+OG number of items: 3
+New item added to my Python list: Weekly puzzle session
+Final number of items: 4
+What the app displayed after I committed the change: The Activities section showed four items, with "Weekly puzzle session" added at the end.
+Did I need a new display statement for that item? Explain briefly: No. The for loop pops up for every item in the activities list, so the new item appeared automatically
+
+In the dictionary I changed: day
+Before it was: Tuesday
+Currently is: Wednesday
+What the app displayed after I committed the change: The meeting details section changed from "Day: Tuesday" to "Day: Wednesday."
+
+REFLECTION:
+Explain Markdown versus Python; how your list and dictionary affect the page;
+how a committed source change reaches the app; and one difficulty or useful check.
+
+Markdown controls how text is formatted on the page, such as bold, italics, lists, and links, while Python stores the information and decides what gets displayed. My activities list is shown through a for loop, so when I added "Weekly puzzle session," it appeared on the page without any new display code, and my club_info dictionary supplies the meeting details by key, so changing the day from Tuesday to Wednesday updated the page automatically. When I commit a change to app.py on GitHub, Streamlit Community Cloud detects the new version and rebuilds the live app at the same URL. My biggest difficulty was unexpected: partway through, my account was banned for supposedly containing "malicious code," which was equally funny and upsetting, considering it was a fictional chess club page, so I had to create a new account and set alot of things up all over again, I most likely would have been ale to appeal, had I not waited until the last moment to finish this assignment, so it's a good lesson in time management and making backups of my work. Opening the live link in an incognito window was a pretty useful final check because it confirmed that any normal visitor could see the page and not just me.
